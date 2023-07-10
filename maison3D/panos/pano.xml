@@ -1,0 +1,17 @@
+<krpano version="1.0.8.14" onstart="js(regards.ipano.ready());">
+
+    <progress showload="none" showwait="none" showreloads="false" parent="" />
+    <display usedesktopimages="true" hardwarelimit="2048" devices="iPad" />
+    <!--plugin name="editor" keep="true" visible="true" align="center" url="../javascript/libs/krpano/plugins/editor.swf" /-->
+    <!--autorotate enabled="true" waittime="0" speed="2" horizon="off" /-->
+
+    <events onmousedown="set(syncother,true); events.onviewchange();"
+            onmousewheel="events.onmousedown();"
+            onviewchange="if(syncother, js(radar()) );"/>
+
+    <view hlookat="0" vlookat="0" fovtype="MFOV" fov="130" fovmin="90" fovmax="140" limitview="auto" />
+
+    <scene name="main" onstart="js(regards.ipano.scene.ready(main))"></scene>
+    <scene name="alternative" onstart="js(regards.ipano.scene.ready(alternative))"></scene>
+
+</krpano>

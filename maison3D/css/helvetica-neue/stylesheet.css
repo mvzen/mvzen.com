@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: 'helveticaNeue-uLight';
+    src: url('helvetica-neue-25-ultra-light.eot?iefix') format('eot'),
+         url('helvetica-neue-25-ultra-light.woff') format('woff'),
+         url('helvetica-neue-25-ultra-light.ttf') format('truetype'),
+         url('helvetica-neue-25-ultra-light.svg#book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaNeue-light';
+    src: url('helvetica-neue-45-light.eot?iefix') format('eot'),
+         url('helvetica-neue-45-light.woff') format('woff'),
+         url('helvetica-neue-45-light.otf') format('opentype'),
+         url('helvetica-neue-45-light.svg#book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaNeue-roman';
+    src: url('helvetica-neue-55-roman.eot?iefix') format('eot'),
+         url('helvetica-neue-55-roman.woff') format('woff'),
+         url('helvetica-neue-55-roman.ttf') format('truetype'),
+         url('helvetica-neue-55-roman.svg#book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaNeue-medium';
+    src: url('helvetica-neue-65-medium.eot?iefix') format('eot'),
+         url('helvetica-neue-65-medium.woff') format('woff'),
+         url('helvetica-neue-65-medium.ttf') format('truetype'),
+         url('helvetica-neue-65-medium.svg#book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaNeue-bold';
+    src: url('helvetica-neue-75-bold.eot?iefix') format('eot'),
+         url('helvetica-neue-75-bold.woff') format('woff'),
+         url('helvetica-neue-75-bold.ttf') format('truetype'),
+         url('helvetica-neue-75-bold.svg#book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaNeue-heavy';
+    src: url('helvetica-neue-85-heavy.eot?iefix') format('eot'),
+         url('helvetica-neue-85-heavy.woff') format('woff'),
+         url('helvetica-neue-85-heavy.ttf') format('truetype'),
+         url('helvetica-neue-85-heavy.svg#book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaNeue-black';
+    src: url('helvetica-neue-95-black.eot?iefix') format('eot'),
+         url('helvetica-neue-95-black.woff') format('woff'),
+         url('helvetica-neue-95-black.ttf') format('truetype'),
+         url('helvetica-neue-95-black.svg#book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

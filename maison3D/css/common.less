@@ -1,0 +1,50 @@
+
+.ipad * {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.btn {
+    cursor: pointer;
+
+    &.disabled {
+        cursor: default;
+    }
+}
+
+.border-box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.centered-box {
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    text-align: center;
+}
+
+.preventFlickering {
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+textarea {
+    resize: vertical;
+}
